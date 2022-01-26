@@ -7,11 +7,18 @@ repo = 'leico/autodate.vim'
 [[plugins]]
 repo = 'cespare/vim-toml'
 
+# [[plugins]]
+# repo = 'flrnd/candid.vim'
+# hook_add = """
+# set background=dark
+# colorscheme candid
+# """
+
 [[plugins]]
-repo = 'flrnd/candid.vim'
+repo = 'ajmwagar/vim-deus'
 hook_add = """
 set background=dark
-colorscheme candid
+colorscheme deus
 """
 
 [[plugins]]
