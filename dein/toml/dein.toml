@@ -7,13 +7,6 @@ repo = 'leico/autodate.vim'
 [[plugins]]
 repo = 'cespare/vim-toml'
 
-# [[plugins]]
-# repo = 'flrnd/candid.vim'
-# hook_add = """
-# set background=dark
-# colorscheme candid
-# """
-
 [[plugins]]
 repo = 'ajmwagar/vim-deus'
 hook_add = """
@@ -30,4 +23,18 @@ hook_add = """
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_color_change_percent = 30
 let g:indent_guides_guide_size = 1
+"""
+
+# [[plugins]]
+# repo = 'ryanoasis/vim-devicons'
+# hook_add = """
+# let g:webdevicons_enable_nerdtree = 1
+# """
+
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = """
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
 """
